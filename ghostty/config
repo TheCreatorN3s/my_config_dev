@@ -1,0 +1,44 @@
+# --- Fuente ---
+# Es importante que el nombre coincida exactamente con cómo lo ve el sistema.
+font-family = "IosevkaTerm Nerd Font"
+font-style=SemiBold Italic
+window-title-font-family=IosevkaTerm Nerd Font
+
+# Tamaño de la fuente (ajústalo a tu gusto, 13 o 14 suele ser ideal para Iosevka)
+font-size = 12
+
+# Habilitar ligaduras (si la fuente las soporta, Iosevka lo hace)
+font-feature = calt
+font-feature = liga
+font-feature = dlig
+
+# --- Ventana y Apariencia ---
+# Un poco de espacio alrededor del texto para que no pegue con el borde
+window-padding-x = 0
+window-padding-y = 0
+maximize = true
+
+# Tema de colores
+#theme = catppuccin
+theme = Catppuccin Mocha
+cursor-color = "#ED664C"
+
+# Decoración de la ventana (true para barra de título nativa, false para minimalismo)
+window-decoration = true
+
+# Transparencia y desenfoque (opcional, estilo macOS/moderno)
+background-opacity = 0.96
+
+# --- Cursor ---
+# Estilo del cursor: block, beam, underline
+cursor-style = block
+cursor-style-blink = true
+
+# --- Comportamiento del Mouse ---
+# Ocultar el mouse cuando escribes para evitar distracciones
+mouse-hide-while-typing = true
+confirm-close-surface = false
+
+#---Command---
+command="zellij"
+
