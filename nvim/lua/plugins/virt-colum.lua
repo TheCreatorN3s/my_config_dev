@@ -5,7 +5,7 @@ return {
       enabled = true,
       char = "│",
       virtcolumn = "130",
-      highlight = "@float",
+      highlight = "@Markup",
     })
   end,
 }

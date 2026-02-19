@@ -25,13 +25,14 @@ return {
         "SignColumn",
         "CursorLine",
         "CursorLineNr",
-        "StatusLine",
-        "StatusLineNC",
+        --"StatusLine",
+        --"StatusLineNC",
         "EndOfBuffer",
       },
       -- table: additional groups that should be cleared
       extra_groups = {
         "NormalFloat",
+        "FloatBorder",
         "StatusLine",
         "NeoTreeNormal",
         "NeoTreeNormalNC",
